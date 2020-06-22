@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>AggAQI</title>
+	</head>
+	<style></style>
+	<body>
+		<form id="form" data-cy="form">
+			<ul>
+				<li>
+					<label for="city">City:</label>
+					<input type="text" id="city" name="city" ata-cy="city" />
+				</li>
+				<li>
+					<label for="state">State:</label>
+					<input type="text" id="state" name="state" data-cy="state" />
+				</li>
+				<li>
+					<label for="country">Country:</label>
+					<input type="text" id="country" name="country" data-cy="country" />
+				</li>
+				<li class="button">
+					<button type="button" id="search-btn" data-cy="Search">Search</button>
+				</li>
+				<li class="output">
+					<p id="aqicn"></p>
+				</li>
+				<li class="output">
+					<p id="iqair"></p>
+				</li>
+			</ul>
+		</form>
+
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>
